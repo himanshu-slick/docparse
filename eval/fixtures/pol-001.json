@@ -1,0 +1,23 @@
+{
+  "policyNumber": "POL-HM-20053",
+  "insurer": "Sentinel Mutual",
+  "policyholder": "Mei Tanaka",
+  "startDate": "2025-03-07",
+  "endDate": "2026-03-06",
+  "currency": "USD",
+  "coverage": [
+    {
+      "type": "Public liability",
+      "limit": 107000
+    },
+    {
+      "type": "Medical expenses",
+      "limit": 42000
+    },
+    {
+      "type": "Fire and allied perils",
+      "limit": 198000
+    }
+  ],
+  "premium": 3422.15
+}

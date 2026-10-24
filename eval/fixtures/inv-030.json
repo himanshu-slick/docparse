@@ -1,0 +1,31 @@
+{
+  "invoiceNumber": "INV-2026-02110",
+  "issueDate": "2025-01-23",
+  "dueDate": "2025-02-06",
+  "vendor": "Northwind Supplies Ltd",
+  "customer": "Meridian Clinics",
+  "currency": "INR",
+  "lineItems": [
+    {
+      "description": "Courier service",
+      "quantity": 6,
+      "unitPrice": 242.98,
+      "amount": 1457.88
+    },
+    {
+      "description": "Courier service",
+      "quantity": 20,
+      "unitPrice": 204.82,
+      "amount": 4096.4
+    },
+    {
+      "description": "Banner print",
+      "quantity": 6,
+      "unitPrice": 189.74,
+      "amount": 1138.44
+    }
+  ],
+  "subtotal": 6692.72,
+  "tax": 669.27,
+  "total": 7361.99
+}

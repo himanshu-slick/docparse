@@ -1,0 +1,15 @@
+{
+  "policyNumber": "POL-HM-20689",
+  "insurer": "Atlas Shield Insurance",
+  "policyholder": "Aisha Khan",
+  "startDate": "2025-09-11",
+  "endDate": "2026-09-10",
+  "currency": "EUR",
+  "coverage": [
+    {
+      "type": "Fire and allied perils",
+      "limit": 120000
+    }
+  ],
+  "premium": 1112.7
+}

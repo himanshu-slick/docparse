@@ -1,0 +1,37 @@
+{
+  "invoiceNumber": "INV-2026-01814",
+  "issueDate": "2025-10-19",
+  "dueDate": "2025-12-03",
+  "vendor": "Kestrel Office Co",
+  "customer": "Meridian Clinics",
+  "currency": "GBP",
+  "lineItems": [
+    {
+      "description": "Cable set",
+      "quantity": 8,
+      "unitPrice": 167.13,
+      "amount": 1337.04
+    },
+    {
+      "description": "Banner print",
+      "quantity": 15,
+      "unitPrice": 157.49,
+      "amount": 2362.35
+    },
+    {
+      "description": "Paper reams",
+      "quantity": 16,
+      "unitPrice": 241.56,
+      "amount": 3864.96
+    },
+    {
+      "description": "Consulting hour",
+      "quantity": 13,
+      "unitPrice": 236.1,
+      "amount": 3069.3
+    }
+  ],
+  "subtotal": 10633.65,
+  "tax": 1063.37,
+  "total": 11697.02
+}

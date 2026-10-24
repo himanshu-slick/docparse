@@ -1,0 +1,31 @@
+{
+  "invoiceNumber": "INV-2026-01851",
+  "issueDate": "2025-05-15",
+  "dueDate": "2025-06-29",
+  "vendor": "Lumen Print House",
+  "customer": "Pinecrest Traders",
+  "currency": "EUR",
+  "lineItems": [
+    {
+      "description": "Pallet storage",
+      "quantity": 19,
+      "unitPrice": 66.05,
+      "amount": 1254.95
+    },
+    {
+      "description": "Courier service",
+      "quantity": 14,
+      "unitPrice": 202.54,
+      "amount": 2835.56
+    },
+    {
+      "description": "Consulting hour",
+      "quantity": 10,
+      "unitPrice": 185.23,
+      "amount": 1852.3
+    }
+  ],
+  "subtotal": 5942.81,
+  "tax": 594.28,
+  "total": 6537.09
+}

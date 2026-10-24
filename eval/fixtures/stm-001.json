@@ -1,0 +1,35 @@
+{
+  "vendor": "Harbor Freight Services",
+  "statementDate": "2026-02-20",
+  "periodStart": "2026-01-20",
+  "periodEnd": "2026-02-19",
+  "currency": "INR",
+  "openingBalance": 5666.47,
+  "closingBalance": 7187.5,
+  "entries": [
+    {
+      "date": "2026-01-20",
+      "reference": "INV-71355",
+      "description": "Invoice",
+      "amount": 20.27
+    },
+    {
+      "date": "2026-01-27",
+      "reference": "INV-61111",
+      "description": "Invoice",
+      "amount": 761.84
+    },
+    {
+      "date": "2026-01-28",
+      "reference": "INV-32842",
+      "description": "Invoice",
+      "amount": 351.55
+    },
+    {
+      "date": "2026-02-03",
+      "reference": "INV-28353",
+      "description": "Invoice",
+      "amount": 387.37
+    }
+  ]
+}

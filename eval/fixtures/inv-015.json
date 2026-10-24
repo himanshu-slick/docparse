@@ -1,0 +1,25 @@
+{
+  "invoiceNumber": "INV-2026-01555",
+  "issueDate": "2025-05-21",
+  "dueDate": "2025-07-05",
+  "vendor": "Northwind Supplies Ltd",
+  "customer": "Meridian Clinics",
+  "currency": "USD",
+  "lineItems": [
+    {
+      "description": "Consulting hour",
+      "quantity": 19,
+      "unitPrice": 99.81,
+      "amount": 1896.39
+    },
+    {
+      "description": "Toner cartridge",
+      "quantity": 6,
+      "unitPrice": 174.69,
+      "amount": 1048.14
+    }
+  ],
+  "subtotal": 2944.53,
+  "tax": 294.45,
+  "total": 3238.98
+}

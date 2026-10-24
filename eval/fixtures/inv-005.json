@@ -1,0 +1,25 @@
+{
+  "invoiceNumber": "INV-2026-01185",
+  "issueDate": "2025-03-05",
+  "dueDate": "2025-04-19",
+  "vendor": "Bluebird Logistics",
+  "customer": "Cobalt Labs",
+  "currency": "USD",
+  "lineItems": [
+    {
+      "description": "Catering platter",
+      "quantity": 14,
+      "unitPrice": 138.97,
+      "amount": 1945.58
+    },
+    {
+      "description": "Courier service",
+      "quantity": 14,
+      "unitPrice": 86.29,
+      "amount": 1208.06
+    }
+  ],
+  "subtotal": 3153.64,
+  "tax": 315.36,
+  "total": 3469
+}

@@ -1,0 +1,8 @@
+{
+  "simulated-strong": {
+    "accuracy": 97.25
+  },
+  "simulated-weak": {
+    "accuracy": 87.61
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "invoiceNumber": "INV-2026-01703",
+  "issueDate": "2025-02-25",
+  "dueDate": "2025-04-11",
+  "vendor": "Bluebird Logistics",
+  "customer": "Zenith Retail LLP",
+  "currency": "GBP",
+  "lineItems": [
+    {
+      "description": "Toner cartridge",
+      "quantity": 20,
+      "unitPrice": 190.03,
+      "amount": 3800.6
+    }
+  ],
+  "subtotal": 3800.6,
+  "tax": 380.06,
+  "total": 4180.66
+}

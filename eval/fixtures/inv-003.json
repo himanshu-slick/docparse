@@ -1,0 +1,25 @@
+{
+  "invoiceNumber": "INV-2026-01111",
+  "issueDate": "2026-06-18",
+  "dueDate": "2026-08-02",
+  "vendor": "Northwind Supplies Ltd",
+  "customer": "Meridian Clinics",
+  "currency": "INR",
+  "lineItems": [
+    {
+      "description": "Cable set",
+      "quantity": 5,
+      "unitPrice": 230.13,
+      "amount": 1150.65
+    },
+    {
+      "description": "Pallet storage",
+      "quantity": 11,
+      "unitPrice": 217.25,
+      "amount": 2389.75
+    }
+  ],
+  "subtotal": 3540.4,
+  "tax": 354.04,
+  "total": 3894.44
+}

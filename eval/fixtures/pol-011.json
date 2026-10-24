@@ -1,0 +1,15 @@
+{
+  "policyNumber": "POL-BZ-20583",
+  "insurer": "Beacon Life & General",
+  "policyholder": "Aisha Khan",
+  "startDate": "2025-07-01",
+  "endDate": "2026-06-30",
+  "currency": "GBP",
+  "coverage": [
+    {
+      "type": "Medical expenses",
+      "limit": 489000
+    }
+  ],
+  "premium": 650.34
+}

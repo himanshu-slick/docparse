@@ -1,0 +1,19 @@
+{
+  "policyNumber": "POL-MD-20159",
+  "insurer": "Beacon Life & General",
+  "policyholder": "Daniel Okafor",
+  "startDate": "2025-08-03",
+  "endDate": "2026-08-02",
+  "currency": "GBP",
+  "coverage": [
+    {
+      "type": "Fire and allied perils",
+      "limit": 81000
+    },
+    {
+      "type": "Public liability",
+      "limit": 36000
+    }
+  ],
+  "premium": 316.06
+}

@@ -1,0 +1,23 @@
+{
+  "policyNumber": "POL-MD-20795",
+  "insurer": "Beacon Life & General",
+  "policyholder": "Mei Tanaka",
+  "startDate": "2025-04-16",
+  "endDate": "2026-04-15",
+  "currency": "INR",
+  "coverage": [
+    {
+      "type": "Medical expenses",
+      "limit": 297000
+    },
+    {
+      "type": "Theft and burglary",
+      "limit": 24000
+    },
+    {
+      "type": "Public liability",
+      "limit": 75000
+    }
+  ],
+  "premium": 1243.83
+}

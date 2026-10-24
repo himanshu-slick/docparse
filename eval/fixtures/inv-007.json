@@ -1,0 +1,37 @@
+{
+  "invoiceNumber": "INV-2026-01259",
+  "issueDate": "2026-03-14",
+  "dueDate": "2026-04-13",
+  "vendor": "Orchid Catering",
+  "customer": "Cobalt Labs",
+  "currency": "GBP",
+  "lineItems": [
+    {
+      "description": "Pallet storage",
+      "quantity": 5,
+      "unitPrice": 29.3,
+      "amount": 146.5
+    },
+    {
+      "description": "Paper reams",
+      "quantity": 4,
+      "unitPrice": 16.3,
+      "amount": 65.2
+    },
+    {
+      "description": "Consulting hour",
+      "quantity": 12,
+      "unitPrice": 8.29,
+      "amount": 99.48
+    },
+    {
+      "description": "Cable set",
+      "quantity": 2,
+      "unitPrice": 44.9,
+      "amount": 89.8
+    }
+  ],
+  "subtotal": 400.98,
+  "tax": 40.1,
+  "total": 441.08
+}

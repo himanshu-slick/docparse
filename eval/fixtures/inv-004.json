@@ -1,0 +1,19 @@
+{
+  "invoiceNumber": "INV-2026-01148",
+  "issueDate": "2025-10-28",
+  "dueDate": "2025-11-11",
+  "vendor": "Harbor Freight Services",
+  "customer": "Zenith Retail LLP",
+  "currency": "EUR",
+  "lineItems": [
+    {
+      "description": "Banner print",
+      "quantity": 6,
+      "unitPrice": 119.41,
+      "amount": 716.46
+    }
+  ],
+  "subtotal": 716.46,
+  "tax": 71.65,
+  "total": 788.11
+}

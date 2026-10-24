@@ -1,0 +1,15 @@
+{
+  "policyNumber": "POL-MD-20530",
+  "insurer": "Atlas Shield Insurance",
+  "policyholder": "Daniel Okafor",
+  "startDate": "2025-03-16",
+  "endDate": "2026-03-15",
+  "currency": "EUR",
+  "coverage": [
+    {
+      "type": "Public liability",
+      "limit": 406000
+    }
+  ],
+  "premium": 974.8
+}

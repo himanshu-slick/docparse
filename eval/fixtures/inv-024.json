@@ -1,0 +1,25 @@
+{
+  "invoiceNumber": "INV-2026-01888",
+  "issueDate": "2026-02-24",
+  "dueDate": "2026-04-10",
+  "vendor": "Northwind Supplies Ltd",
+  "customer": "Pinecrest Traders",
+  "currency": "USD",
+  "lineItems": [
+    {
+      "description": "Pallet storage",
+      "quantity": 6,
+      "unitPrice": 208.53,
+      "amount": 1251.18
+    },
+    {
+      "description": "Pallet storage",
+      "quantity": 16,
+      "unitPrice": 66.65,
+      "amount": 1066.4
+    }
+  ],
+  "subtotal": 2317.58,
+  "tax": 231.76,
+  "total": 2549.34
+}

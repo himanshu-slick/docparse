@@ -1,0 +1,25 @@
+{
+  "invoiceNumber": "INV-2026-01074",
+  "issueDate": "2025-04-12",
+  "dueDate": "2025-05-27",
+  "vendor": "Northwind Supplies Ltd",
+  "customer": "Cobalt Labs",
+  "currency": "EUR",
+  "lineItems": [
+    {
+      "description": "Pallet storage",
+      "quantity": 11,
+      "unitPrice": 106.91,
+      "amount": 1176.01
+    },
+    {
+      "description": "Toner cartridge",
+      "quantity": 10,
+      "unitPrice": 153.32,
+      "amount": 1533.2
+    }
+  ],
+  "subtotal": 2709.21,
+  "tax": 270.92,
+  "total": 2980.13
+}

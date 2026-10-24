@@ -1,0 +1,25 @@
+{
+  "invoiceNumber": "INV-2026-01444",
+  "issueDate": "2025-03-21",
+  "dueDate": "2025-05-05",
+  "vendor": "Bluebird Logistics",
+  "customer": "Pinecrest Traders",
+  "currency": "INR",
+  "lineItems": [
+    {
+      "description": "Banner print",
+      "quantity": 11,
+      "unitPrice": 123.47,
+      "amount": 1358.17
+    },
+    {
+      "description": "Toner cartridge",
+      "quantity": 18,
+      "unitPrice": 95.58,
+      "amount": 1720.44
+    }
+  ],
+  "subtotal": 3078.61,
+  "tax": 307.86,
+  "total": 3386.47
+}

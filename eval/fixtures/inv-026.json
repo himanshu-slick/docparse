@@ -1,0 +1,19 @@
+{
+  "invoiceNumber": "INV-2026-01962",
+  "issueDate": "2025-02-09",
+  "dueDate": "2025-02-23",
+  "vendor": "Northwind Supplies Ltd",
+  "customer": "Aster Holdings",
+  "currency": "USD",
+  "lineItems": [
+    {
+      "description": "Banner print",
+      "quantity": 13,
+      "unitPrice": 166.96,
+      "amount": 2170.48
+    }
+  ],
+  "subtotal": 2170.48,
+  "tax": 217.05,
+  "total": 2387.53
+}

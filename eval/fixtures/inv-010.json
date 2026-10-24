@@ -1,0 +1,25 @@
+{
+  "invoiceNumber": "INV-2026-01370",
+  "issueDate": "2026-05-24",
+  "dueDate": "2026-06-23",
+  "vendor": "Harbor Freight Services",
+  "customer": "Meridian Clinics",
+  "currency": "EUR",
+  "lineItems": [
+    {
+      "description": "Toner cartridge",
+      "quantity": 17,
+      "unitPrice": 222.56,
+      "amount": 3783.52
+    },
+    {
+      "description": "Paper reams",
+      "quantity": 5,
+      "unitPrice": 84.31,
+      "amount": 421.55
+    }
+  ],
+  "subtotal": 4205.07,
+  "tax": 420.51,
+  "total": 4625.58
+}

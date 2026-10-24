@@ -1,0 +1,37 @@
+{
+  "invoiceNumber": "INV-2026-01777",
+  "issueDate": "2026-04-26",
+  "dueDate": "2026-05-10",
+  "vendor": "Northwind Supplies Ltd",
+  "customer": "Cobalt Labs",
+  "currency": "GBP",
+  "lineItems": [
+    {
+      "description": "Consulting hour",
+      "quantity": 18,
+      "unitPrice": 67.03,
+      "amount": 1206.54
+    },
+    {
+      "description": "Banner print",
+      "quantity": 18,
+      "unitPrice": 169.2,
+      "amount": 3045.6
+    },
+    {
+      "description": "Pallet storage",
+      "quantity": 10,
+      "unitPrice": 236.32,
+      "amount": 2363.2
+    },
+    {
+      "description": "Cable set",
+      "quantity": 7,
+      "unitPrice": 33.9,
+      "amount": 237.3
+    }
+  ],
+  "subtotal": 6852.64,
+  "tax": 685.26,
+  "total": 7537.9
+}

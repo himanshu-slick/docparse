@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DocParse Demo</title>
+<meta name="description" content="Invoice, policy and statement PDFs to schema-validated JSON.">
+<style>
+  :root { --bg:#fafaf9; --fg:#1c1917; --muted:#78716c; --card:#fff; --line:#e7e5e4; --accent:#2563eb; --ok:#15803d; --bad:#b91c1c; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0c0a09; --fg:#f5f5f4; --muted:#a8a29e; --card:#1c1917; --line:#292524; --accent:#60a5fa; --ok:#4ade80; --bad:#f87171; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui, sans-serif; }
+  main { max-width:880px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { margin:0 0 4px; font-size:28px; }
+  p.lead { margin:0 0 24px; color:var(--muted); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; margin-bottom:16px; }
+  .row { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  button, label.btn { font:inherit; padding:8px 14px; border-radius:8px; border:1px solid var(--line); background:var(--card); color:var(--fg); cursor:pointer; }
+  button:hover, label.btn:hover { border-color:var(--accent); }
+  button:disabled { opacity:.5; cursor:wait; }
+  input[type=file] { display:none; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:8px; margin-bottom:12px; }
+  .stat { border:1px solid var(--line); border-radius:8px; padding:8px 12px; }
+  .stat b { display:block; font-size:18px; }
+  .stat span { color:var(--muted); font-size:13px; }
+  pre { margin:0; overflow:auto; max-height:480px; font:13px/1.5 ui-monospace, monospace; }
+  .ok { color:var(--ok); } .bad { color:var(--bad); }
+  a { color:var(--accent); }
+  footer { color:var(--muted); font-size:14px; margin-top:24px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>DocParse</h1>
+  <p class="lead">PDF in, schema-validated JSON out. Pick a sample or upload an invoice, insurance policy or account statement (PDF, up to 2 MB).</p>
+
+  <div class="card">
+    <div class="row">
+      <button data-sample="inv-001">Sample invoice</button>
+      <button data-sample="pol-001">Sample policy</button>
+      <button data-sample="stm-001">Sample statement</button>
+      <label class="btn">Upload PDF<input id="file" type="file" accept="application/pdf"></label>
+    </div>
+  </div>
+
+  <div class="card" id="out" hidden aria-live="polite">
+    <div class="grid" id="stats"></div>
+    <pre id="json"></pre>
+  </div>
+
+  <footer>
+    Runs the same extractor and Zod schemas as the CLI. Uploaded files are processed in memory and not stored.
+    Source and eval results: <a id="repo" href="https://github.com/himanshu-slick/docparse">github.com/himanshu-slick/docparse</a>
+  </footer>
+</main>
+<script>
+const out = document.getElementById('out');
+const stats = document.getElementById('stats');
+const pre = document.getElementById('json');
+const buttons = [...document.querySelectorAll('button')];
+
+const stat = (label, value, cls = '') => `<div class="stat"><b class="${cls}">${value}</b><span>${label}</span></div>`;
+
+function show(res) {
+  out.hidden = false;
+  if (res.error && !res.docType) {
+    stats.innerHTML = stat('Error', 'Failed', 'bad');
+    pre.textContent = res.error;
+    return;
+  }
+  stats.innerHTML = [
+    stat('Document type', res.docType),
+    stat('Schema', res.valid ? 'Valid' : 'Invalid', res.valid ? 'ok' : 'bad'),
+    stat('Attempts', res.attempts),
+    stat('Latency', `${(res.latencyMs / 1000).toFixed(1)} s`),
+    stat('Model', res.model),
+  ].join('');
+  pre.textContent = JSON.stringify(res.data ?? null, null, 2) + (res.error ? `\n\nValidation error:\n${res.error}` : '');
+}
+
+async function run(blob) {
+  buttons.forEach((b) => (b.disabled = true));
+  out.hidden = false;
+  stats.innerHTML = '';
+  pre.textContent = 'Extracting...';
+  try {
+    const r = await fetch('/api/extract', { method: 'POST', body: blob });
+    show(await r.json());
+  } catch (e) {
+    show({ error: 'Request failed: ' + e.message });
+  } finally {
+    buttons.forEach((b) => (b.disabled = false));
+  }
+}
+
+document.querySelectorAll('[data-sample]').forEach((b) =>
+  b.addEventListener('click', async () => run(await (await fetch(`/samples/${b.dataset.sample}.pdf`)).blob())));
+document.getElementById('file').addEventListener('change', (e) => e.target.files[0] && run(e.target.files[0]));
+</script>
+</body>
+</html>

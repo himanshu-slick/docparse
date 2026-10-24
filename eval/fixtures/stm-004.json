@@ -1,0 +1,35 @@
+{
+  "vendor": "Orchid Catering",
+  "statementDate": "2026-03-19",
+  "periodStart": "2026-02-16",
+  "periodEnd": "2026-03-18",
+  "currency": "INR",
+  "openingBalance": 5422.48,
+  "closingBalance": 6747.73,
+  "entries": [
+    {
+      "date": "2026-02-19",
+      "reference": "PMT-98560",
+      "description": "Payment received",
+      "amount": -524.59
+    },
+    {
+      "date": "2026-02-20",
+      "reference": "INV-63227",
+      "description": "Invoice",
+      "amount": 784.12
+    },
+    {
+      "date": "2026-02-24",
+      "reference": "INV-13704",
+      "description": "Invoice",
+      "amount": 899.32
+    },
+    {
+      "date": "2026-03-01",
+      "reference": "INV-60080",
+      "description": "Invoice",
+      "amount": 166.4
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "invoiceNumber": "INV-2026-01481",
+  "issueDate": "2025-03-15",
+  "dueDate": "2025-04-29",
+  "vendor": "Kestrel Office Co",
+  "customer": "Pinecrest Traders",
+  "currency": "GBP",
+  "lineItems": [
+    {
+      "description": "Consulting hour",
+      "quantity": 4,
+      "unitPrice": 174.84,
+      "amount": 699.36
+    }
+  ],
+  "subtotal": 699.36,
+  "tax": 69.94,
+  "total": 769.3
+}

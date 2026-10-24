@@ -1,0 +1,36 @@
+[
+  {
+    "name": "simulated-strong",
+    "model": "simulated-strong-sim",
+    "simulated": true,
+    "docs": 50,
+    "accuracy": 97.24770642201835,
+    "byType": {
+      "invoice": 97.23247232472325,
+      "policy": 95.80838323353294,
+      "statement": 98.77300613496932
+    },
+    "schemaPass": 98,
+    "firstTryPass": 98,
+    "p50Ms": 968,
+    "p95Ms": 1457,
+    "costPerDocUsd": 0
+  },
+  {
+    "name": "simulated-weak",
+    "model": "simulated-weak-sim",
+    "simulated": true,
+    "docs": 50,
+    "accuracy": 87.61467889908256,
+    "byType": {
+      "invoice": 87.63837638376384,
+      "policy": 89.82035928143712,
+      "statement": 85.2760736196319
+    },
+    "schemaPass": 88,
+    "firstTryPass": 66,
+    "p50Ms": 2360,
+    "p95Ms": 4347,
+    "costPerDocUsd": 0
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "policyNumber": "POL-MD-20212",
+  "insurer": "Sentinel Mutual",
+  "policyholder": "Aisha Khan",
+  "startDate": "2025-07-16",
+  "endDate": "2026-07-15",
+  "currency": "USD",
+  "coverage": [
+    {
+      "type": "Business interruption",
+      "limit": 119000
+    },
+    {
+      "type": "Accidental damage",
+      "limit": 333000
+    },
+    {
+      "type": "Fire and allied perils",
+      "limit": 475000
+    }
+  ],
+  "premium": 3241.56
+}

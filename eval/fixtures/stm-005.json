@@ -1,0 +1,59 @@
+{
+  "vendor": "Lumen Print House",
+  "statementDate": "2025-11-23",
+  "periodStart": "2025-10-23",
+  "periodEnd": "2025-11-22",
+  "currency": "USD",
+  "openingBalance": 8821.61,
+  "closingBalance": 10526.51,
+  "entries": [
+    {
+      "date": "2025-10-25",
+      "reference": "PMT-21745",
+      "description": "Payment received",
+      "amount": -193.26
+    },
+    {
+      "date": "2025-10-30",
+      "reference": "INV-88251",
+      "description": "Invoice",
+      "amount": 835.04
+    },
+    {
+      "date": "2025-11-03",
+      "reference": "PMT-23989",
+      "description": "Payment received",
+      "amount": -824.75
+    },
+    {
+      "date": "2025-11-04",
+      "reference": "INV-97960",
+      "description": "Invoice",
+      "amount": 316.5
+    },
+    {
+      "date": "2025-11-10",
+      "reference": "INV-95191",
+      "description": "Invoice",
+      "amount": 330.88
+    },
+    {
+      "date": "2025-11-14",
+      "reference": "INV-75206",
+      "description": "Invoice",
+      "amount": 648.48
+    },
+    {
+      "date": "2025-11-18",
+      "reference": "INV-10581",
+      "description": "Invoice",
+      "amount": 520.45
+    },
+    {
+      "date": "2025-11-23",
+      "reference": "INV-79091",
+      "description": "Invoice",
+      "amount": 71.56
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "invoiceNumber": "INV-2026-01407",
+  "issueDate": "2025-04-12",
+  "dueDate": "2025-05-27",
+  "vendor": "Kestrel Office Co",
+  "customer": "Cobalt Labs",
+  "currency": "INR",
+  "lineItems": [
+    {
+      "description": "Consulting hour",
+      "quantity": 14,
+      "unitPrice": 227.42,
+      "amount": 3183.88
+    },
+    {
+      "description": "Courier service",
+      "quantity": 6,
+      "unitPrice": 108.91,
+      "amount": 653.46
+    },
+    {
+      "description": "Consulting hour",
+      "quantity": 1,
+      "unitPrice": 6.41,
+      "amount": 6.41
+    },
+    {
+      "description": "Banner print",
+      "quantity": 10,
+      "unitPrice": 113.06,
+      "amount": 1130.6
+    }
+  ],
+  "subtotal": 4974.35,
+  "tax": 497.44,
+  "total": 5471.79
+}

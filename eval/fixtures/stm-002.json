@@ -1,0 +1,59 @@
+{
+  "vendor": "Orchid Catering",
+  "statementDate": "2025-10-23",
+  "periodStart": "2025-09-22",
+  "periodEnd": "2025-10-22",
+  "currency": "EUR",
+  "openingBalance": 8694.41,
+  "closingBalance": 12847.05,
+  "entries": [
+    {
+      "date": "2025-09-23",
+      "reference": "INV-54452",
+      "description": "Invoice",
+      "amount": 364.31
+    },
+    {
+      "date": "2025-09-26",
+      "reference": "INV-79399",
+      "description": "Invoice",
+      "amount": 814
+    },
+    {
+      "date": "2025-10-01",
+      "reference": "INV-55842",
+      "description": "Invoice",
+      "amount": 572.6
+    },
+    {
+      "date": "2025-10-07",
+      "reference": "INV-71782",
+      "description": "Invoice",
+      "amount": 672.2
+    },
+    {
+      "date": "2025-10-10",
+      "reference": "INV-85314",
+      "description": "Invoice",
+      "amount": 500.49
+    },
+    {
+      "date": "2025-10-12",
+      "reference": "INV-44948",
+      "description": "Invoice",
+      "amount": 897.9
+    },
+    {
+      "date": "2025-10-17",
+      "reference": "INV-13019",
+      "description": "Invoice",
+      "amount": 206.33
+    },
+    {
+      "date": "2025-10-21",
+      "reference": "INV-91925",
+      "description": "Invoice",
+      "amount": 124.81
+    }
+  ]
+}

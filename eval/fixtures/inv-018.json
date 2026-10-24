@@ -1,0 +1,31 @@
+{
+  "invoiceNumber": "INV-2026-01666",
+  "issueDate": "2025-06-15",
+  "dueDate": "2025-07-15",
+  "vendor": "Bluebird Logistics",
+  "customer": "Cobalt Labs",
+  "currency": "INR",
+  "lineItems": [
+    {
+      "description": "Catering platter",
+      "quantity": 18,
+      "unitPrice": 97.18,
+      "amount": 1749.24
+    },
+    {
+      "description": "Pallet storage",
+      "quantity": 17,
+      "unitPrice": 129.57,
+      "amount": 2202.69
+    },
+    {
+      "description": "Banner print",
+      "quantity": 12,
+      "unitPrice": 83.55,
+      "amount": 1002.6
+    }
+  ],
+  "subtotal": 4954.53,
+  "tax": 495.45,
+  "total": 5449.98
+}

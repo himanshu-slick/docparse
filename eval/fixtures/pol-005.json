@@ -1,0 +1,19 @@
+{
+  "policyNumber": "POL-BZ-20265",
+  "insurer": "Crestline Assurance",
+  "policyholder": "Priya Raman",
+  "startDate": "2025-10-12",
+  "endDate": "2026-10-11",
+  "currency": "GBP",
+  "coverage": [
+    {
+      "type": "Business interruption",
+      "limit": 499000
+    },
+    {
+      "type": "Fire and allied perils",
+      "limit": 165000
+    }
+  ],
+  "premium": 1582.47
+}

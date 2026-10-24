@@ -1,0 +1,37 @@
+{
+  "invoiceNumber": "INV-2026-01296",
+  "issueDate": "2025-01-22",
+  "dueDate": "2025-03-08",
+  "vendor": "Orchid Catering",
+  "customer": "Pinecrest Traders",
+  "currency": "EUR",
+  "lineItems": [
+    {
+      "description": "Consulting hour",
+      "quantity": 15,
+      "unitPrice": 127.67,
+      "amount": 1915.05
+    },
+    {
+      "description": "Courier service",
+      "quantity": 10,
+      "unitPrice": 150.66,
+      "amount": 1506.6
+    },
+    {
+      "description": "Toner cartridge",
+      "quantity": 8,
+      "unitPrice": 221.48,
+      "amount": 1771.84
+    },
+    {
+      "description": "Courier service",
+      "quantity": 13,
+      "unitPrice": 202.81,
+      "amount": 2636.53
+    }
+  ],
+  "subtotal": 7830.02,
+  "tax": 783,
+  "total": 8613.02
+}

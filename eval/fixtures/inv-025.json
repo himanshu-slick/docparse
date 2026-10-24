@@ -1,0 +1,37 @@
+{
+  "invoiceNumber": "INV-2026-01925",
+  "issueDate": "2025-02-16",
+  "dueDate": "2025-03-02",
+  "vendor": "Lumen Print House",
+  "customer": "Zenith Retail LLP",
+  "currency": "INR",
+  "lineItems": [
+    {
+      "description": "Banner print",
+      "quantity": 12,
+      "unitPrice": 97.49,
+      "amount": 1169.88
+    },
+    {
+      "description": "Catering platter",
+      "quantity": 2,
+      "unitPrice": 79.51,
+      "amount": 159.02
+    },
+    {
+      "description": "Pallet storage",
+      "quantity": 3,
+      "unitPrice": 112.17,
+      "amount": 336.51
+    },
+    {
+      "description": "Cable set",
+      "quantity": 18,
+      "unitPrice": 43.62,
+      "amount": 785.16
+    }
+  ],
+  "subtotal": 2450.57,
+  "tax": 245.06,
+  "total": 2695.63
+}

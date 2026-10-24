@@ -1,0 +1,25 @@
+{
+  "invoiceNumber": "INV-2026-01999",
+  "issueDate": "2025-04-01",
+  "dueDate": "2025-05-16",
+  "vendor": "Lumen Print House",
+  "customer": "Aster Holdings",
+  "currency": "EUR",
+  "lineItems": [
+    {
+      "description": "Consulting hour",
+      "quantity": 17,
+      "unitPrice": 28.96,
+      "amount": 492.32
+    },
+    {
+      "description": "Banner print",
+      "quantity": 15,
+      "unitPrice": 232.03,
+      "amount": 3480.45
+    }
+  ],
+  "subtotal": 3972.77,
+  "tax": 397.28,
+  "total": 4370.05
+}

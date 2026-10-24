@@ -1,0 +1,19 @@
+{
+  "invoiceNumber": "INV-2026-01629",
+  "issueDate": "2025-08-22",
+  "dueDate": "2025-10-06",
+  "vendor": "Kestrel Office Co",
+  "customer": "Cobalt Labs",
+  "currency": "EUR",
+  "lineItems": [
+    {
+      "description": "Cable set",
+      "quantity": 4,
+      "unitPrice": 15.9,
+      "amount": 63.6
+    }
+  ],
+  "subtotal": 63.6,
+  "tax": 6.36,
+  "total": 69.96
+}

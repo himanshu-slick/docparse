@@ -1,0 +1,47 @@
+{
+  "name": "docparse",
+  "version": "0.1.0",
+  "description": "Invoice and insurance-policy PDFs to schema-validated JSON, with an eval harness that compares models on accuracy, cost and latency.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "docparse": "./dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "tsx src/cli.ts",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "dataset": "tsx eval/generate.ts",
+    "eval": "tsx eval/run.ts",
+    "eval:live": "tsx eval/run.ts --live --models gemini,groq-gpt-oss,groq-qwen,ollama",
+    "eval:check": "tsx eval/check.ts",
+    "demo": "tsx scripts/dev-server.ts"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "pdf-parse": "^2.4.5",
+    "tesseract.js": "^7.0.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.5",
+    "@types/pdfkit": "^0.17.7",
+    "eslint": "^10.13.0",
+    "pdfkit": "^0.20.2",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.0",
+    "vitest": "^5.0.5"
+  }
+}

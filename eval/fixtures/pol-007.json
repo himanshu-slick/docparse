@@ -1,0 +1,23 @@
+{
+  "policyNumber": "POL-BZ-20371",
+  "insurer": "Atlas Shield Insurance",
+  "policyholder": "Tom Brennan",
+  "startDate": "2025-02-13",
+  "endDate": "2026-02-12",
+  "currency": "INR",
+  "coverage": [
+    {
+      "type": "Public liability",
+      "limit": 123000
+    },
+    {
+      "type": "Fire and allied perils",
+      "limit": 113000
+    },
+    {
+      "type": "Theft and burglary",
+      "limit": 210000
+    }
+  ],
+  "premium": 3333.83
+}

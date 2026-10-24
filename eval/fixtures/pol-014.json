@@ -1,0 +1,19 @@
+{
+  "policyNumber": "POL-HM-20742",
+  "insurer": "Crestline Assurance",
+  "policyholder": "Priya Raman",
+  "startDate": "2025-12-24",
+  "endDate": "2026-12-23",
+  "currency": "GBP",
+  "coverage": [
+    {
+      "type": "Business interruption",
+      "limit": 158000
+    },
+    {
+      "type": "Medical expenses",
+      "limit": 482000
+    }
+  ],
+  "premium": 1615.7
+}

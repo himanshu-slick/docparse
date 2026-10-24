@@ -1,0 +1,19 @@
+{
+  "invoiceNumber": "INV-2026-01518",
+  "issueDate": "2025-12-02",
+  "dueDate": "2026-01-16",
+  "vendor": "Kestrel Office Co",
+  "customer": "Pinecrest Traders",
+  "currency": "GBP",
+  "lineItems": [
+    {
+      "description": "Cable set",
+      "quantity": 17,
+      "unitPrice": 219.46,
+      "amount": 3730.82
+    }
+  ],
+  "subtotal": 3730.82,
+  "tax": 373.08,
+  "total": 4103.9
+}

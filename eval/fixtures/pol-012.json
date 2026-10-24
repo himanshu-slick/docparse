@@ -1,0 +1,19 @@
+{
+  "policyNumber": "POL-MD-20636",
+  "insurer": "Atlas Shield Insurance",
+  "policyholder": "Aisha Khan",
+  "startDate": "2025-08-02",
+  "endDate": "2026-08-01",
+  "currency": "GBP",
+  "coverage": [
+    {
+      "type": "Theft and burglary",
+      "limit": 213000
+    },
+    {
+      "type": "Accidental damage",
+      "limit": 73000
+    }
+  ],
+  "premium": 3651.69
+}

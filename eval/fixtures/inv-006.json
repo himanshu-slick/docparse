@@ -1,0 +1,25 @@
+{
+  "invoiceNumber": "INV-2026-01222",
+  "issueDate": "2025-08-02",
+  "dueDate": "2025-09-01",
+  "vendor": "Bluebird Logistics",
+  "customer": "Meridian Clinics",
+  "currency": "INR",
+  "lineItems": [
+    {
+      "description": "Cable set",
+      "quantity": 5,
+      "unitPrice": 233.54,
+      "amount": 1167.7
+    },
+    {
+      "description": "Courier service",
+      "quantity": 18,
+      "unitPrice": 241.5,
+      "amount": 4347
+    }
+  ],
+  "subtotal": 5514.7,
+  "tax": 551.47,
+  "total": 6066.17
+}

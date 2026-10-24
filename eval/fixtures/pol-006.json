@@ -1,0 +1,19 @@
+{
+  "policyNumber": "POL-MD-20318",
+  "insurer": "Atlas Shield Insurance",
+  "policyholder": "Lucas Ferreira",
+  "startDate": "2025-02-08",
+  "endDate": "2026-02-07",
+  "currency": "INR",
+  "coverage": [
+    {
+      "type": "Fire and allied perils",
+      "limit": 175000
+    },
+    {
+      "type": "Business interruption",
+      "limit": 329000
+    }
+  ],
+  "premium": 3475.58
+}

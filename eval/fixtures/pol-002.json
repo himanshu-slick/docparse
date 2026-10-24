@@ -1,0 +1,19 @@
+{
+  "policyNumber": "POL-HM-20106",
+  "insurer": "Beacon Life & General",
+  "policyholder": "Aisha Khan",
+  "startDate": "2025-06-02",
+  "endDate": "2026-06-01",
+  "currency": "USD",
+  "coverage": [
+    {
+      "type": "Business interruption",
+      "limit": 484000
+    },
+    {
+      "type": "Theft and burglary",
+      "limit": 259000
+    }
+  ],
+  "premium": 2443.76
+}

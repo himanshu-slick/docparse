@@ -1,0 +1,31 @@
+{
+  "invoiceNumber": "INV-2026-01333",
+  "issueDate": "2026-05-23",
+  "dueDate": "2026-06-06",
+  "vendor": "Lumen Print House",
+  "customer": "Meridian Clinics",
+  "currency": "USD",
+  "lineItems": [
+    {
+      "description": "Pallet storage",
+      "quantity": 13,
+      "unitPrice": 106.08,
+      "amount": 1379.04
+    },
+    {
+      "description": "Banner print",
+      "quantity": 15,
+      "unitPrice": 78.11,
+      "amount": 1171.65
+    },
+    {
+      "description": "Toner cartridge",
+      "quantity": 8,
+      "unitPrice": 10.11,
+      "amount": 80.88
+    }
+  ],
+  "subtotal": 2631.57,
+  "tax": 263.16,
+  "total": 2894.73
+}
